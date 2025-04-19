@@ -13,7 +13,7 @@ def main():
     
     st.markdown(html_temp,unsafe_allow_html=True)
     
-    model=joblib.load('model_joblib_gr')
+    model=joblib.load('model_joblib_gr1')
     
     p1=st.slider('Enter Age', 18,100)
     s1= st.selectbox('sex', ('Male','Female'))
